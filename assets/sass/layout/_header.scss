@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    height: 43.391px;
+    background-color: rgb(188, 81, 72);
+    .about-action{
+        display: flex;
+        .sponsor{
+            padding: 10px;
+        }
+        .login{
+    height: 43.391px;
+padding: 10px;
+
+            background-color: rgb(244, 178, 20);
+        }
+        a{
+            
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            &:hover{
+                color: white;
+            }
+        }
+        
+    }
+    
+    .social-networks{
+        width: 50%;
+        display: flex;
+        gap: 15px;
+        i{
+            &:hover{
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+   
+}
